@@ -8,7 +8,7 @@ public class Clock {
         this.time = time;
     }
 
-    public void getTime(){
-        System.out.println(time);
+    public int getTime(){
+        return time;
     }
 }
